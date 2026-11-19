@@ -1,0 +1,22 @@
+/*
+  SWARA colour palette (deep purple, lavender, soft pink, red, teal).
+  Your components already use these token names (berry, rose, alert, safe ...),
+  so this file only changes the colour VALUES. Nothing else needs renaming.
+
+  To use it, add this line to src/index.css, right after @import "tailwindcss";
+    @import "./styles/swara-theme.css";
+*/
+@theme {
+  --color-berry: #5b21b6;        /* primary: deep purple */
+  --color-berry-dark: #4c1d95;
+  --color-lavender: #ede9fe;     /* secondary: lavender */
+  --color-rose: #e0529c;         /* accent: soft pink */
+  --color-blush: #fce7f3;
+  --color-alert: #dc2626;        /* emergency: red */
+  --color-alert-dark: #b91c1c;
+  --color-safe: #0f766e;         /* success: teal */
+  --color-mist: #f8f5ff;         /* very light lavender background */
+  --color-ink: #1e1033;          /* main text */
+  --color-muted: #62567a;        /* secondary text */
+  --color-line: #e4daf4;         /* borders */
+}
